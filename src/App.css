@@ -1,0 +1,45 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    margin-left: 39%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  th {
+    background-color: rgb(43, 175, 151);
+
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(43, 175, 151);
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
