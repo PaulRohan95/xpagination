@@ -19,7 +19,7 @@ function Pagination({ currentPage, totalItems, itemsPerPage, onPageChange }) { /
 
   return (
     <div>
-        <button onClick={prevPage} disabled={currentPage === 1}>Previous</button>
+        <button onClick={prevPage} >Previous</button>
         <span style={{ margin: '0 20px' }}>{currentPage}</span>
         <button onClick={nextPage} disabled={currentPage === totalPages}>Next</button>
     </div>
